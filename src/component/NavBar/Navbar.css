@@ -1,0 +1,45 @@
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 40px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar-Black {
+  background-color: #111;
+}
+
+.navBar-Logo {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+.navBar-Logo:hover {
+  font-size: 35px;
+  transition: all 0.2s;
+}
+
+.navBar-Search {
+  display: flex;
+  right: 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.navBar-Search:hover {
+  color: rgb(83, 79, 79);
+  transition: all 0.2s;
+  font-size: 25px;
+}
